@@ -1,10 +1,9 @@
-# Du Jianzhang · 杜建璋 — Personal Website
+# 杜建璋 · Du Jianzhang
 
-Academic homepage: https://uu60.github.io/
+个人空间：https://uu60.github.io/
 
-## 更新网页
+- `index.html`：页面内容与样式。
+- `profile.jpg`：主页生活照。
+- `.nojekyll`：静态发布配置。
 
-- `index.html`：网页内容与样式。
-- `.nojekyll`：让 GitHub Pages 直接发布静态文件。
-
-GitHub Pages 从 `main` 分支根目录发布，修改提交后自动更新。
+GitHub Pages 从 main 分支根目录自动发布。
