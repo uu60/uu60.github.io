@@ -14,13 +14,15 @@
 .profile{grid-template-columns:200px 1fr}
 .profile-photo{width:200px;height:200px}
 @media(max-width:680px){.profile{grid-template-columns:150px 1fr}.profile-photo{width:150px;height:150px}}
+.profile{align-items:stretch}
+.profile-photo{height:100%;align-self:stretch;aspect-ratio:auto;object-fit:cover}
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header><div class="nav"><a class="brand" href="#">Du Jianzhang · <span lang="zh-CN">杜建璋</span></a><nav aria-label="Main navigation"><a href="#about">About</a><a href="#research">Research</a><a href="#experience">Experience</a><a href="#contact">Contact</a></nav></div></header>
 <div class="layout">
-<aside class="profile" aria-label="Profile"><img class="profile-photo" src="profile.jpg" alt="杜建璋的生活照" width="240" height="240"><h2 class="profile-name">Du Jianzhang<span lang="zh-CN" style="display:block;font-size:24px;line-height:1.6;margin-top:8px">杜建璋</span></h2><p class="position">PhD Student · Computer Science</p><p class="school">Indiana University</p><div class="profile-links"><a href="https://github.com/uu60">GitHub</a><a href="https://blog.csdn.net/Uracil?type=blog">Blog</a><a href="mailto:djz6660@icloud.com">Email</a></div><p class="side-note">Research interests<br><strong>Systems and performance.<br>Efficient, reliable computing.</strong></p></aside>
+<aside class="profile" aria-label="Profile"><img class="profile-photo" src="profile.jpg" alt="杜建璋的生活照" width="180" height="180"><h2 class="profile-name">Du Jianzhang<span lang="zh-CN" style="display:block;font-size:24px;line-height:1.6;margin-top:8px">杜建璋</span></h2><p class="position">PhD Student · Computer Science</p><p class="school">Indiana University</p><div class="profile-links"><a href="https://github.com/uu60">GitHub</a><a href="https://blog.csdn.net/Uracil?type=blog">Blog</a><a href="mailto:djz6660@icloud.com">Email</a></div><p class="side-note">Research interests<br><strong>Systems and performance.<br>Efficient, reliable computing.</strong></p></aside>
 <main id="main">
 <section id="about"><p class="intro">I am a Computer Science PhD student at <strong>Indiana University</strong>, advised by <strong>Professor Chenghong Wang</strong>. My broader interest is systems: how to make software efficient, reliable, and practical.</p><p class="intro">I work on database systems, secure computation, concurrency, and performance optimization, with a focus on understanding where systems spend time and how to make them run better.</p><div class="tags"><span class="tag">Systems</span><span class="tag">Performance</span><span class="tag">Concurrency</span><span class="tag">Databases</span></div></section>
 <section id="news"><div class="section-head"><span class="number">01</span><h2>News</h2></div><ul class="awards"><li><time>NSDI</time><div><a href="https://nsdi27springae.usenix.hotcrp.com/paper/97">ParsecDB: Unlocking Efficient Parallelism in Two-party Secret-shared Databases</a><small>Accepted at NSDI</small></div></li><li><time>CCS</time><div><a href="https://ccs2026b.hotcrp.com/paper/2110">Hoss: Fast Oblivious Semantic Search with Heterogeneous GPU-CPU-TEE Architecture</a><small>Accepted at CCS</small></div></li></ul></section>
